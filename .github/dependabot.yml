@@ -5,13 +5,13 @@ updates:
     schedule:
       interval: "daily"
     reviewers:
-      - "yamap55"
+      - "atsushimemet"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
     reviewers:
-      - "yamap55"
+      - "atsushimemet"
   - package-ecosystem: "docker"
     directory: "/.devcontainer"
     schedule:
@@ -20,4 +20,4 @@ updates:
       - dependency-name: "python"
         versions: ["~>3.10.0"]
     reviewers:
-      - "yamap55"
+      - "atsushimemet"

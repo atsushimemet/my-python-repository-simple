@@ -1,9 +1,11 @@
 // ref. https://github.com/Microsoft/vscode-remote-try-python
 {
-  "name": "Python Repository Simple",
+  "name": "My Python Repository Simple",
   // Use docker-compose.extend.yml to run a command that keeps the container running.
-  "dockerComposeFile": ["../docker-compose.yml"],
-  "service": "python_repository_simple",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "service": "my_python_repository_simple",
   "workspaceFolder": "/project",
   "shutdownAction": "stopCompose",
   // Comment out the next line to run as root instead. Linux users,
@@ -24,10 +26,15 @@
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": ["--config=.flake8"],
+    "python.linting.flake8Args": [
+      "--config=.flake8"
+    ],
     "python.linting.lintOnSave": true,
     "python.formatting.provider": "black",
-    "python.formatting.blackArgs": ["--line-length", "100"],
+    "python.formatting.blackArgs": [
+      "--line-length",
+      "100"
+    ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
